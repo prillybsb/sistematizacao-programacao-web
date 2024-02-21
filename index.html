@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPri - Impulsione seu Sucesso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5E1FF;
+            /* Rosa claro */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FF80AB;
+            /* Rosa médio */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #FF80AB;
+            /* Rosa médio */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label,
+        input,
+        button {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #FF80AB;
+            /* Rosa médio */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #FF80AB;
+            /* Rosa médio */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>TechPri - Impulsione seu Sucesso</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produto">Produto</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>A TechPri é uma empresa inovadora que fornece soluções de software personalizadas para empresas de
+                todos os tamanhos. Nosso objetivo é impulsionar o sucesso dos nossos clientes, oferecendo ferramentas
+                poderosas e intuitivas que aumentam a produtividade, melhoram a eficiência e impulsionam o crescimento.
+            </p>
+        </section>
+
+        <section id="produto">
+            <h2>Nosso Produto</h2>
+            <img src="product_image1.jpg" alt="Imagem do Produto 1">
+            <img src="product_image2.jpg" alt="Imagem do Produto 2">
+            <p>O TechPri Suite é uma suíte de software completa projetada para atender às necessidades específicas do
+                seu negócio. Com módulos para gestão de projetos, CRM, contabilidade e muito mais, o TechPri Suite
+                oferece uma solução integrada para todas as suas necessidades de software.</p>
+        </section>
+
+        <section id="equipe">
+            <h2>Nossa Equipe</h2>
+            <div>
+                <img src="ceo.jpg" alt="Foto do CEO">
+                <p>CEO - Priscila Lessa</p>
+            </div>
+            <div>
+                <img src="cto.jpg" alt="Foto do CTO">
+                <p>CTO - Leonardo</p>
+            </div>
+            <div>
+                <img src="designer.jpg" alt="Foto do Designer">
+                <p>Designer UX/UI - Mariazinha</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Inscreva-se Agora</h2>
+            <form action="inscricao.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado">
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contato | Sobre | Instagram</p>
+    </footer>
+</body>
+
+</html>
